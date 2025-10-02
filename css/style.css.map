@@ -1,0 +1,21 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../style.scss",
+        "../block/_block.scss",
+        "../block/_general.scss",
+        "../block/_navbar.scss",
+        "../block/_intro.scss",
+        "../block/_about.scss",
+        "../block/_masterchef.scss",
+        "../block/_booktable.scss",
+        "../block/_chocolates.scss",
+        "../block/_menu.scss",
+        "../block/_private.scss",
+        "../block/_contact.scss",
+        "../block/_footer.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}
