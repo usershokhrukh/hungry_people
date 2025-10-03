@@ -1,0 +1,15 @@
+.chocolate {
+  padding: 0px 80px 40px 100px !important; 
+  &__icons-div {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+
+  &__icons:nth-child(odd) {
+    color: rgba($color: #ffffff, $alpha: 0.5);
+  }
+  &__icons:nth-child(even) {
+    color: rgba($color: #ffffff, $alpha: 1);
+  }
+}

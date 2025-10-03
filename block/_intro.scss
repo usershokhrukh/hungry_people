@@ -1,12 +1,10 @@
 .intro {
-    &-wrapper {
-      border-top: 1px solid rgba($color: #fff, $alpha: 0.2);
-    }
+
   position: relative;
   display: flex;
   justify-content: center;
   gap: 0px;
-
+  border-top: 1px solid rgba($color: #fff, $alpha: 0.1);
   &__left {
     position: relative;
     display: flex;
@@ -34,7 +32,6 @@
   &__right {
     display: flex;
     align-items: center;
-
   }
 
   &__right-contain {
@@ -50,7 +47,7 @@
     padding: 11px 11.5px 8.5px 11.5px;
     background-color: transparent;
     border-radius: 50px;
-    border: 1px solid rgba($color: #fff, $alpha: 0.2)
+    border: 1px solid rgba($color: #fff, $alpha: 0.1)
   }
 
   &__center {
@@ -106,5 +103,71 @@
 
 
   }
+
+  &__center-box {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .buttons {
+    width: 200px;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    color: white;
+
+    &:active {
+      opacity: 0.7;
+    }
+  }
+
+  &__button-left {
+    background-color: #E8C300;
+  }
+
+  &__helm {
+    position: relative;
+    top: -295px;
+  }
+
+  &__center-contain {
+    position: relative;
+    top: -60px;
+  }
+
+  &__right-item1 {
+    position: absolute;
+    bottom: -170px;
+    right: 421px;
+    padding: 11px 11.5px 8.5px 11.5px;
+    background-color: transparent;
+    border-radius: 50px;
+    border: 1px solid rgba($color: #fff, $alpha: 0.1)
+  }
+
+
+  hr {
+    position: absolute;
+    width: 876px;
+    transform: rotate(90deg);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  &__hr-left {
+    left: -270px;
+  }
+  &__hr-right {
+    right: -370px;
+  }
+   &__hr-center {
+    top: 500px;
+    right: 178px;
+  }
+
+
+
 
 }

@@ -1,0 +1,113 @@
+.private {
+  position: relative;
+  &-wrapper {
+    background-image: url(../images/privatebg__img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 80px;
+
+  &__suptext {
+    height: 100px;
+
+    /* Caption */
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-size: 12px;
+    line-height: 14px;
+    /* or 117% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+  }
+
+  &__div {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+  }
+
+  &__left {
+    display: flex;
+    justify-content: flex-end;
+    height: 475px;
+    width: 475px;
+    position: relative;
+    background-image: url(../images/privateleft__img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  &__left-div {
+    position: relative;
+    top: 40px;
+    background-color: black;
+    width: 80px;
+    height: 395px;
+  }
+
+  &__left-div-text {
+    position: relative;
+    top: 155px;
+    left: -110px;
+    width: 300px;
+    font-family: 'Banny';
+    font-size: 24px;
+    line-height: 12px;
+    /* or 50% */
+    display: flex;
+    align-items: center;
+    text-indent: 20px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    transform: rotate(90deg);
+
+  }
+
+  &__left:nth-child(2) {
+    transform: rotate(-180deg);
+    background-image: url(../images/privateright__img.png);
+
+  }
+
+  &__subtext {
+    height: 100px;
+    display: flex;
+    gap: 5px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-size: 12px;
+    line-height: 12px;
+    /* or 100% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: rgba(255, 255, 255, 0.5);
+
+    border-radius: 5px;
+
+    & span {
+      font-weight: 700;
+    }
+  }
+
+  &__mazzo {
+    display: flex;
+
+  }
+
+}
